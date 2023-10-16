@@ -1,0 +1,24 @@
+{
+  "name": "trado_express",
+  "version": "1.0.0",
+  "description": "For trado website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "samuel code",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.33",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
